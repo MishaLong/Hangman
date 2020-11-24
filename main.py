@@ -65,13 +65,12 @@ HANGMANPICS = ['''
  / \  |
       |
 =========''']
-words = ["python", "java", "kotlin", "javascript"]
-# words = "ant baboon badger bat bear beaver camel cat clam cobra cougar\
-# coyote crow deer dog donkey duck eagle ferret fox frog goat goose hawk\
-# lion lizard llama mole monkey moose mouse mule newt otter owl panda\
-# parrot pigeon python rabbit ram rat raven rhino salmon seal shark sheep\
-# skunk sloth snake spider stork swan tiger toad trout turkey turtle\
-# weasel whale wolf wombat zebra".split()
+words = "ant baboon badger bat bear beaver camel cat clam cobra cougar\
+coyote crow deer dog donkey duck eagle ferret fox frog goat goose hawk\
+lion lizard llama mole monkey moose mouse mule newt otter owl panda\
+parrot pigeon python rabbit ram rat raven rhino salmon seal shark sheep\
+skunk sloth snake spider stork swan tiger toad trout turkey turtle\
+weasel whale wolf wombat zebra".split()
 random.seed()
 repeat_letters = []
 user_input = input('Type any letter(s) to play the game or "exit" to quit: ')
